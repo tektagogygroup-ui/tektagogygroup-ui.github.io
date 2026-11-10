@@ -9,6 +9,258 @@
 @media(max-width:850px){.hero-grid,.two,.contactbox{grid-template-columns:1fr}.hero-grid{gap:45px}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.links{gap:12px}.links a:not(.btn){display:none}}
 @media(max-width:560px){.wrap{width:calc(100% - 30px)}section{padding:58px 0}.hero-grid{padding:58px 0}.cards,.audiences,.steps{grid-template-columns:1fr}.contactbox{padding:24px}.brand{font-size:.9rem}.brand svg{width:39px}.links .btn{padding:9px 14px;font-size:.82rem}}
 </style></head>
+
+<style>
+/* TEKTAGOGY GROUP - PRICING */
+.tg-pricing {
+  background: #f4f7fb;
+  padding: 75px 20px;
+  font-family: Arial, sans-serif;
+  color: #172b4d;
+}
+
+.tg-pricing-inner {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.tg-pricing-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tg-pricing-header h2 {
+  font-size: 34px;
+  color: #102b50;
+  margin-bottom: 12px;
+}
+
+.tg-pricing-header p {
+  max-width: 720px;
+  margin: auto;
+  line-height: 1.7;
+  color: #52647a;
+}
+
+.tg-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.tg-price-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 12px;
+  border: 1px solid #dce5ef;
+  box-shadow: 0 5px 18px rgba(16,43,80,0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.tg-price-card h3 {
+  color: #102b50;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 0 15px;
+}
+
+.tg-price {
+  font-size: 27px;
+  font-weight: bold;
+  color: #0d9488;
+  margin-bottom: 5px;
+}
+
+.tg-price-note {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 18px;
+}
+
+.tg-price-card p {
+  line-height: 1.6;
+  color: #52647a;
+}
+
+.tg-price-card ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #40536b;
+  flex-grow: 1;
+}
+
+.tg-price-card a {
+  display: block;
+  text-align: center;
+  background: #102b50;
+  color: white;
+  padding: 13px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.tg-price-card a:hover {
+  background: #0d9488;
+}
+
+.tg-pricing-footer {
+  text-align: center;
+  margin-top: 35px;
+  line-height: 1.7;
+  color: #64748b;
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .tg-pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .tg-pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tg-pricing-header h2 {
+    font-size: 27px;
+  }
+}
+</style>
+
+<section class="tg-pricing" id="services-pricing">
+  <div class="tg-pricing-inner">
+
+    <div class="tg-pricing-header">
+      <h2>Our Services &amp; Pricing</h2>
+      <p>
+        Practical educational technology solutions designed
+        to help universities, colleges and training institutions
+        transform teaching and learning.
+      </p>
+    </div>
+
+    <div class="tg-pricing-grid">
+
+      <div class="tg-price-card">
+        <h3>01. LMS Consultancy &amp; Implementation</h3>
+        <div class="tg-price">$650–$1,200</div>
+        <div class="tg-price-note">Per implementation project</div>
+        <p>Establish or improve your institution's learning management system.</p>
+        <ul>
+          <li>LMS needs assessment</li>
+          <li>Moodle configuration guidance</li>
+          <li>Course categories and structure</li>
+          <li>Up to five course shells</li>
+          <li>User roles and access setup</li>
+          <li>Basic lecturer orientation</li>
+        </ul>
+        <a href="mailto:tektagogogygroup@gmail.com?subject=LMS%20Implementation%20Enquiry">Request a Quote</a>
+      </div>
+
+      <div class="tg-price-card">
+        <h3>02. Instructional Design &amp; Course Development</h3>
+        <div class="tg-price">$450–$900</div>
+        <div class="tg-price-note">Per course</div>
+        <p>Transform existing teaching materials into engaging online courses.</p>
+        <ul>
+          <li>Learning objectives and course mapping</li>
+          <li>Course structure and learning pathways</li>
+          <li>Digital learning activities</li>
+          <li>Quiz and assessment design</li>
+          <li>Moodle course organisation</li>
+          <li>One revision round</li>
+        </ul>
+        <a href="mailto:tektagogogygroup@gmail.com?subject=Instructional%20Design%20Enquiry">Request a Quote</a>
+      </div>
+
+      <div class="tg-price-card">
+        <h3>03. LMS Administration &amp; Support</h3>
+        <div class="tg-price">$400–$850</div>
+        <div class="tg-price-note">Per month</div>
+        <p>Reliable ongoing support for your institution's LMS.</p>
+        <ul>
+          <li>Course and user administration</li>
+          <li>Enrolment and access management</li>
+          <li>Lecturer and student support</li>
+          <li>Basic troubleshooting</li>
+          <li>Course activity monitoring</li>
+          <li>Monthly support reports</li>
+        </ul>
+        <a href="mailto:tektagogogygroup@gmail.com?subject=LMS%20Support%20Enquiry">Request a Quote</a>
+      </div>
+
+      <div class="tg-price-card">
+        <h3>04. Digital Learning &amp; LMS Training</h3>
+        <div class="tg-price">$350–$600</div>
+        <div class="tg-price-note">Per training session</div>
+        <p>Build the digital teaching capabilities of your academic staff.</p>
+        <ul>
+          <li>Moodle and LMS fundamentals</li>
+          <li>Online course creation</li>
+          <li>Learning material management</li>
+          <li>Online quizzes and assignments</li>
+          <li>Student engagement techniques</li>
+          <li>Training materials and attendance report</li>
+        </ul>
+        <a href="mailto:tektagogogygroup@gmail.com?subject=Digital%20Learning%20Training%20Enquiry">Request a Quote</a>
+      </div>
+
+      <div class="tg-price-card">
+        <h3>05. Digital Learning Strategy &amp; Consultancy</h3>
+        <div class="tg-price">$900–$1,800</div>
+        <div class="tg-price-note">Per consultancy project</div>
+        <p>Develop a practical roadmap for institutional digital transformation.</p>
+        <ul>
+          <li>Digital learning needs assessment</li>
+          <li>LMS readiness evaluation</li>
+          <li>Review of teaching practices</li>
+          <li>Implementation roadmap</li>
+          <li>Staff development recommendations</li>
+          <li>Institutional improvement report</li>
+        </ul>
+        <a href="mailto:tektagogogygroup@gmail.com?subject=Digital%20Strategy%20Enquiry">Request a Quote</a>
+      </div>
+
+      <div class="tg-price-card">
+        <h3>06. Individual Educator &amp; Department Support</h3>
+        <div class="tg-price">$75–$150</div>
+        <div class="tg-price-note">Per consultation or defined task</div>
+        <p>Practical digital learning assistance for educators and academic teams.</p>
+        <ul>
+          <li>LMS consultation</li>
+          <li>Course organisation</li>
+          <li>Online assessment setup</li>
+          <li>Digital teaching guidance</li>
+          <li>Learning platform troubleshooting</li>
+        </ul>
+        <a href="mailto:tektagogogygroup@gmail.com?subject=Educator%20Support%20Enquiry">Request a Quote</a>
+      </div>
+
+    </div>
+
+    <div class="tg-pricing-footer">
+      <p>
+        All prices are indicative and quoted in USD.
+        Final pricing depends on project scope, complexity
+        and institutional requirements.
+      </p>
+      <p>
+        Hosting, third-party licences, travel and specialised
+        integrations are quoted separately where applicable.
+      </p>
+      <p>
+        <strong>Let's transform learning together.</strong>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
 <body>
 <div class="top"><div class="wrap"><span>Educational Technology &amp; Digital Learning Consultancy</span><span><a href="mailto:tektagogygroup@gmail.com">tektagogygroup@gmail.com</a> &nbsp; | &nbsp; <a href="tel:+254757853686">+254 757 853 686</a></span></div></div>
 <header><nav class="wrap"><a class="brand" href="#home"><svg viewBox="0 0 100 100" aria-label="Open book and digital learning emblem"><path d="M10 62Q31 47 50 65Q69 47 90 62V80Q68 65 50 84Q31 65 10 80Z" fill="#168c8c"/><path d="M15 66Q34 54 50 71Q67 54 85 66" fill="none" stroke="#142c46" stroke-width="4"/><path d="M50 61Q34 35 19 30Q37 29 50 47Q64 29 82 30Q65 38 50 61Z" fill="#142c46"/><path d="M15 44Q48 12 83 35" fill="none" stroke="#22b8b1" stroke-width="5"/><path d="M36 19L50 10L64 19L50 27Z" fill="#142c46"/><circle cx="50" cy="39" r="6" fill="#168c8c"/><rect x="76" y="8" width="7" height="7" fill="#22b8b1"/><rect x="86" y="17" width="6" height="6" fill="#168c8c"/></svg><span>TEKTAGOGY<small>GROUP</small></span></a><div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#approach">Our approach</a><a class="btn" href="#contact">Let's talk</a></div></nav></header>
